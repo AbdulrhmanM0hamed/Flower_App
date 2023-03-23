@@ -9,6 +9,7 @@ class Login extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
+            const SizedBox(height: 64),
             TextField(
               keyboardType: TextInputType.emailAddress,
               obscureText: false,
