@@ -36,9 +36,12 @@ class Login extends StatelessWidget {
               ),
               Row(
                 children: [
-                  Text(
-                    "Don't have an account ",
-                    style: TextStyle(fontSize: 18),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 25),
+                    child: Text(
+                      "Don't have an account ",
+                      style: TextStyle(fontSize: 18),
+                    ),
                   )
                 ],
               )
