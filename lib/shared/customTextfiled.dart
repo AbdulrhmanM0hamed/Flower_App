@@ -8,12 +8,12 @@ class Mytextfield extends StatelessWidget {
 
   TextInputType? TextInputTypeee;
   String? hinttextt;
-  bool? ispass;
+  bool ispass;
   @override
   Widget build(BuildContext context) {
     return TextField(
       keyboardType: TextInputTypeee,
-      obscureText: false,
+      obscureText: ispass,
       decoration: InputDecoration(
           hintText: hinttextt,
           enabledBorder: OutlineInputBorder(
