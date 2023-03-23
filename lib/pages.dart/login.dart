@@ -12,6 +12,7 @@ class Login extends StatelessWidget {
             TextField(
               keyboardType: TextInputType.emailAddress,
               obscureText: false,
+              decoration: InputDecoration(hintText: "Enter your Email :"),
             ),
           ],
         ),
