@@ -1,5 +1,5 @@
-import 'package:flower_app/shared/customTextfiled.dart';
 import 'package:flutter/material.dart';
+import 'package:flower_app/shared/customTextfiled.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -9,10 +9,10 @@ class Login extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(20.0),
+          padding: const EdgeInsets.only(top: 150, left: 20, right: 20),
           child: Column(
             children: [
-              const SizedBox(height: 64),
+              const SizedBox(height: 80),
               Mytextfield(
                   TextInputTypeee: TextInputType.emailAddress,
                   hinttextt: "Enter your Email",
