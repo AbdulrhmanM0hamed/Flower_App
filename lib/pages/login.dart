@@ -40,7 +40,7 @@ class Login extends StatelessWidget {
               Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(left: 40),
+                    padding: const EdgeInsets.only(left: 55),
                     child: Center(
                       child: Text(
                         "Don't have an account ",
@@ -48,6 +48,23 @@ class Login extends StatelessWidget {
                           fontSize: 18,
                         ),
                       ),
+                    ),
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return Scaffold();
+                          },
+                        ),
+                      );
+                    },
+                    child: Text(
+                      "signup",
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
                     ),
                   )
                 ],
