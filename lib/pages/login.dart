@@ -23,14 +23,14 @@ class Login extends StatelessWidget {
                 hinttextt: "Enter your Password",
                 ispass: true,
               ),
-              Spacer(
-                flex: 1,
+              SizedBox(
+                height: 60,
               ),
               ElevatedButton(
                 onPressed: () {},
                 child: Text(
                   "sign in ",
-                  style: TextStyle(fontSize: 18),
+                  style: TextStyle(fontSize: 20),
                 ),
               ),
             ],
