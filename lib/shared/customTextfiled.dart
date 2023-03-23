@@ -6,7 +6,7 @@ class Mytextfield extends StatelessWidget {
       required this.hinttextt,
       required this.ispass});
 
-  Mytextfield? TextInputTypeee;
+  TextInputType? TextInputTypeee;
   String? hinttextt;
   bool? ispass;
   @override

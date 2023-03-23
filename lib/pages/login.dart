@@ -1,3 +1,4 @@
+import 'package:flower_app/shared/customTextfiled.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatelessWidget {
@@ -12,37 +13,10 @@ class Login extends StatelessWidget {
           child: Column(
             children: [
               const SizedBox(height: 64),
-              TextField(
-                keyboardType: TextInputType.emailAddress,
-                obscureText: false,
-                decoration: InputDecoration(
-                    hintText: "Enter your Email :",
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: Divider.createBorderSide(context),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey),
-                    ),
-                    filled: true,
-                    contentPadding: const EdgeInsets.all(8)),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              TextField(
-                keyboardType: TextInputType.emailAddress,
-                obscureText: false,
-                decoration: InputDecoration(
-                    hintText: "Enter your Email :",
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: Divider.createBorderSide(context),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey),
-                    ),
-                    filled: true,
-                    contentPadding: const EdgeInsets.all(8)),
-              ),
+              Mytextfield(
+                  TextInputTypeee: TextInputType.emailAddress,
+                  hinttextt: "Enter your text",
+                  ispass: false)
             ],
           ),
         ),
