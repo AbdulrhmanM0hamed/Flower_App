@@ -32,6 +32,7 @@ class Login extends StatelessWidget {
                   "sign in ",
                   style: TextStyle(fontSize: 20),
                 ),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
               ),
             ],
           ),
