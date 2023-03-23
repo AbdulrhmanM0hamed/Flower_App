@@ -24,7 +24,7 @@ class Login extends StatelessWidget {
                 ispass: true,
               ),
               SizedBox(
-                height: 60,
+                height: 40,
               ),
               ElevatedButton(
                 onPressed: () {},
@@ -35,7 +35,7 @@ class Login extends StatelessWidget {
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
               ),
               SizedBox(
-                height: 40,
+                height: 20,
               ),
               Row(
                 children: [
