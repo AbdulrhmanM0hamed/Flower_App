@@ -1,4 +1,4 @@
-import 'package:flower_app/pages.dart/login.dart';
+import 'package:flower_app/pages/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
