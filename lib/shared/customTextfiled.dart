@@ -1,15 +1,21 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class Mytextfield extends StatelessWidget {
+  Mytextfield(
+      {required this.TextInputTypeee,
+      required this.hinttextt,
+      required this.ispass});
 
+  Mytextfield? TextInputTypeee;
+  String? hinttextt;
+  bool? ispass;
   @override
   Widget build(BuildContext context) {
     return TextField(
-      keyboardType: TextInputType.emailAddress,
+      keyboardType: TextInputTypeee,
       obscureText: false,
       decoration: InputDecoration(
-          hintText: "Enter your Email :",
+          hintText: hinttextt,
           enabledBorder: OutlineInputBorder(
             borderSide: Divider.createBorderSide(context),
           ),
