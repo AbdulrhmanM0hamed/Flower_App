@@ -34,6 +34,14 @@ class Login extends StatelessWidget {
                 ),
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
               ),
+              Row(
+                children: [
+                  Text(
+                    "Don't have an account ",
+                    style: TextStyle(fontSize: 18),
+                  )
+                ],
+              )
             ],
           ),
         ),
