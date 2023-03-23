@@ -27,6 +27,7 @@ class Login extends StatelessWidget {
                 onPressed: () {},
                 child: Text(
                   "sign in ",
+                  style: TextStyle(fontSize: 18),
                 ),
               ),
             ],
