@@ -23,6 +23,9 @@ class Login extends StatelessWidget {
                 hinttextt: "Enter your Password",
                 ispass: true,
               ),
+              Spacer(
+                flex: 1,
+              ),
               ElevatedButton(
                 onPressed: () {},
                 child: Text(
