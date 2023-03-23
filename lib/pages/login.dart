@@ -18,9 +18,10 @@ class Login extends StatelessWidget {
                   hinttextt: "Enter your Email",
                   ispass: false),
               Mytextfield(
-                  TextInputTypeee: TextInputType.text,
-                  hinttextt: ,
-                  ispass: ispass)
+                TextInputTypeee: TextInputType.text,
+                hinttextt: "Enter your Password",
+                ispass: true,
+              ),
             ],
           ),
         ),
