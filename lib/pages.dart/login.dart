@@ -13,14 +13,15 @@ class Login extends StatelessWidget {
               keyboardType: TextInputType.emailAddress,
               obscureText: false,
               decoration: InputDecoration(
-                hintText: "Enter your Email :",
-                enabledBorder: OutlineInputBorder(
-                  borderSide: Divider.createBorderSide(context),
-                ),
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.grey),
-                ),
-              ),
+                  hintText: "Enter your Email :",
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: Divider.createBorderSide(context),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey),
+                  ),
+                  filled: true,
+                  contentPadding: const EdgeInsets.all(8)),
             ),
           ],
         ),
