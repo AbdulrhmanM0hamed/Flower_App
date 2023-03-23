@@ -23,6 +23,12 @@ class Login extends StatelessWidget {
                 hinttextt: "Enter your Password",
                 ispass: true,
               ),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  "sign in ",
+                ),
+              ),
             ],
           ),
         ),
