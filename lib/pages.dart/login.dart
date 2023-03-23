@@ -11,6 +11,7 @@ class Login extends StatelessWidget {
           children: [
             TextField(
               keyboardType: TextInputType.emailAddress,
+              obscureText: false,
             ),
           ],
         ),
