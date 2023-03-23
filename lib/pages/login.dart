@@ -34,13 +34,20 @@ class Login extends StatelessWidget {
                 ),
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
               ),
+              SizedBox(
+                height: 40,
+              ),
               Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(left: 25),
-                    child: Text(
-                      "Don't have an account ",
-                      style: TextStyle(fontSize: 18),
+                    padding: const EdgeInsets.only(left: 40),
+                    child: Center(
+                      child: Text(
+                        "Don't have an account ",
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      ),
                     ),
                   )
                 ],
