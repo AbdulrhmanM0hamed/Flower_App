@@ -10,6 +10,11 @@ class Homepage extends StatelessWidget {
         child: Column(
           children: [
             UserAccountsDrawerHeader(
+              currentAccountPicture: CircleAvatar(
+                radius: 55,
+                backgroundImage:
+                    AssetImage("assets/images/photo_2023-03-24_21-38-03.jpg"),
+              ),
               accountEmail: Text('@bodamohmed'),
               accountName: Text('abdomohamed'),
             ),
