@@ -47,7 +47,10 @@ class Homepage extends StatelessWidget {
             Spacer(
               flex: 1,
             ),
-            Text("Developed by Abdulrhman Mohamed")
+            Text(
+              "Developed by Abdulrhman Mohamed @2023",
+              style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+            )
           ],
         ),
       ),
