@@ -55,12 +55,12 @@ class myRegister extends StatelessWidget {
               style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
             ),
             SizedBox(
-              height: 10,
+              height: 20,
             ),
             Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 55),
+                  padding: const EdgeInsets.only(left: 45),
                   child: Center(
                     child: Text(
                       "Already have an account  ",
