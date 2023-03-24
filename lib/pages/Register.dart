@@ -21,7 +21,7 @@ class myRegister extends StatelessWidget {
               height: 25,
             ),
             Mytextfield(
-              TextInputTypeee: TextInputType.text,
+              TextInputTypeee: TextInputType.emailAddress,
               hinttextt: 'Enter your Email',
               ispass: true,
             ),
