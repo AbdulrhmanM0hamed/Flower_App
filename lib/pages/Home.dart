@@ -12,7 +12,11 @@ class Homepage extends StatelessWidget {
         actions: [
           Row(
             children: [
-              IconButton(onPressed: () {}, icon: Icon(Icons.add_shopping_cart))
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.add_shopping_cart),
+              ),
+              Text("\$ 154 ")
             ],
           )
         ],
