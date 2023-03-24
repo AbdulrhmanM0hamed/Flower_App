@@ -11,9 +11,10 @@ class Homepage extends StatelessWidget {
           children: [
             UserAccountsDrawerHeader(
               decoration: BoxDecoration(
-                  image: DecorationImage(
-                      image: AssetImage(
-                          "assets/images/photo_2023-03-24_21-38-03.jpg"))),
+                image: DecorationImage(
+                  image: AssetImage("assets/images/R (2).jpeg"),
+                ),
+              ),
               currentAccountPicture: CircleAvatar(
                 radius: 45,
                 backgroundImage:
