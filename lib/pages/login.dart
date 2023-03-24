@@ -1,3 +1,4 @@
+import 'package:flower_app/pages/Register.dart';
 import 'package:flutter/material.dart';
 import 'package:flower_app/shared/customTextfiled.dart';
 
@@ -27,7 +28,16 @@ class Login extends StatelessWidget {
                 height: 40,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return Scaffold();
+                      },
+                    ),
+                  );
+                },
                 child: Text(
                   "sign in ",
                   style: TextStyle(fontSize: 20),
@@ -56,7 +66,7 @@ class Login extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                           builder: (context) {
-                            return Scaffold();
+                            return myRegister();
                           },
                         ),
                       );
