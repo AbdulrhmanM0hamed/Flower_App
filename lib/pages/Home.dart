@@ -12,6 +12,7 @@ class Homepage extends StatelessWidget {
         actions: [
           Row(
             children: [
+              Text('5'),
               IconButton(
                 onPressed: () {},
                 icon: Icon(Icons.add_shopping_cart),
