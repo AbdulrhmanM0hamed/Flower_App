@@ -12,8 +12,9 @@ class Homepage extends StatelessWidget {
             UserAccountsDrawerHeader(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("assets/images/R (2).jpeg"),
-                    fit: BoxFit.cover),
+                  image: AssetImage("assets/images/R (2).jpeg"),
+                  fit: BoxFit.cover,
+                ),
               ),
               currentAccountPicture: CircleAvatar(
                 radius: 45,
@@ -22,6 +23,11 @@ class Homepage extends StatelessWidget {
               ),
               accountEmail: Text('@bodamohmed'),
               accountName: Text('abdomohamed'),
+            ),
+            ListTile(
+              title: Text("Home"),
+              leading: Icon(Icons.home),
+              onTap: () {},
             ),
           ],
         ),
