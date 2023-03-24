@@ -17,11 +17,11 @@ class Homepage extends StatelessWidget {
                   Container(
                     child: Text(
                       '5',
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 20, color: Colors.black),
                     ),
                     padding: EdgeInsets.all(3.5),
                     decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 238, 20, 8),
+                        color: Color.fromARGB(255, 2, 249, 138),
                         shape: BoxShape.circle),
                   ),
                   IconButton(
