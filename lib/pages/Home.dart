@@ -18,7 +18,10 @@ class Homepage extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text("\$ 154 "),
+                child: Text(
+                  "\$ 154 ",
+                  style: TextStyle(fontSize: 16),
+                ),
               )
             ],
           )
