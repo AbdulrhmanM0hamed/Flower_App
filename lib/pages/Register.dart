@@ -30,7 +30,7 @@ class myRegister extends StatelessWidget {
             ),
             Mytextfield(
               TextInputTypeee: TextInputType.text,
-              hinttextt: 'Enter your user name',
+              hinttextt: 'Enter your password',
               ispass: true,
             ),
           ],
