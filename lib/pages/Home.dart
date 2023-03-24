@@ -19,8 +19,9 @@ class Homepage extends StatelessWidget {
                       '5',
                       style: TextStyle(fontSize: 20),
                     ),
+                    padding: EdgeInsets.all(3.5),
                     decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 8, 238, 62),
+                        color: Color.fromARGB(255, 238, 20, 8),
                         shape: BoxShape.circle),
                   ),
                   IconButton(
