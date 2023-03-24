@@ -8,7 +8,14 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Home"),
-        backgroundColor: Colors.green,
+        backgroundColor: Color.fromARGB(255, 8, 119, 12),
+        actions: [
+          Row(
+            children: [
+              IconButton(onPressed: () {}, icon: Icon(Icons.add_shopping_cart))
+            ],
+          )
+        ],
       ),
     );
   }
