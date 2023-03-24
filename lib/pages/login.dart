@@ -72,7 +72,7 @@ class Login extends StatelessWidget {
                       );
                     },
                     child: Text(
-                      "signup",
+                      "sign up",
                       style:
                           TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
                     ),

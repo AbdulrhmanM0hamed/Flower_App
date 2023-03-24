@@ -1,3 +1,4 @@
+import 'package:flower_app/pages/login.dart';
 import 'package:flutter/material.dart';
 import 'package:flower_app/shared/customTextfiled.dart';
 
@@ -33,6 +34,60 @@ class myRegister extends StatelessWidget {
               hinttextt: 'Enter your password',
               ispass: true,
             ),
+            SizedBox(
+              height: 15,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return Scaffold();
+                    },
+                  ),
+                );
+              },
+              child: Text(
+                "sign up ",
+                style: TextStyle(fontSize: 20),
+              ),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(left: 55),
+                  child: Center(
+                    child: Text(
+                      "Don't have an account ",
+                      style: TextStyle(
+                        fontSize: 18,
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Login();
+                        },
+                      ),
+                    );
+                  },
+                  child: Text(
+                    "sign in",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+                  ),
+                )
+              ],
+            )
           ],
         ),
       ),
