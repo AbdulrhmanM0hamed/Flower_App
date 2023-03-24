@@ -63,7 +63,7 @@ class myRegister extends StatelessWidget {
                   padding: const EdgeInsets.only(left: 55),
                   child: Center(
                     child: Text(
-                      "Don't have an account ",
+                      "Already have an account  ",
                       style: TextStyle(
                         fontSize: 18,
                       ),
