@@ -60,7 +60,7 @@ class myRegister extends StatelessWidget {
             Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 45),
+                  padding: const EdgeInsets.only(left: 40),
                   child: Center(
                     child: Text(
                       "Already have an account  ",
