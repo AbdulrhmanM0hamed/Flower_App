@@ -16,7 +16,10 @@ class Homepage extends StatelessWidget {
                 onPressed: () {},
                 icon: Icon(Icons.add_shopping_cart),
               ),
-              Text("\$ 154 ")
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text("\$ 154 "),
+              )
             ],
           )
         ],
