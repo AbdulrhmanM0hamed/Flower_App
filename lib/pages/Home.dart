@@ -6,6 +6,16 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(
+        child: Column(
+          children: [
+            UserAccountsDrawerHeader(
+              accountEmail: Text('@bodamohmed'),
+              accountName: Text('abdomohamed'),
+            ),
+          ],
+        ),
+      ),
       appBar: AppBar(
         title: Text("Home"),
         backgroundColor: Color.fromARGB(255, 8, 119, 12),
