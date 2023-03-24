@@ -14,15 +14,18 @@ class Homepage extends StatelessWidget {
             children: [
               Stack(
                 children: [
-                  Container(
-                    child: Text(
-                      '5',
-                      style: TextStyle(fontSize: 20, color: Colors.black),
+                  Positioned(
+                    bottom: 24,
+                    child: Container(
+                      child: Text(
+                        '5',
+                        style: TextStyle(fontSize: 20, color: Colors.black),
+                      ),
+                      padding: EdgeInsets.all(3.5),
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 247, 243, 9),
+                          shape: BoxShape.circle),
                     ),
-                    padding: EdgeInsets.all(3.5),
-                    decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 2, 249, 138),
-                        shape: BoxShape.circle),
                   ),
                   IconButton(
                     onPressed: () {},
