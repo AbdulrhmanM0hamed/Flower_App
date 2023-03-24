@@ -44,6 +44,10 @@ class Homepage extends StatelessWidget {
               leading: Icon(Icons.exit_to_app),
               onTap: () {},
             ),
+            Spacer(
+              flex: 1,
+            ),
+            Text("Developed by Abdulrhman Mohamed")
           ],
         ),
       ),
