@@ -18,18 +18,21 @@ class Homepage extends StatelessWidget {
             itemBuilder: (BuildContext context, index) {
               return Padding(
                 padding: const EdgeInsets.only(top: 22),
-                child: GridTile(
-                  child: Stack(children: [
-                    Positioned(
-                      right: 0,
-                      left: 0,
-                      top: 10,
-                      bottom: -3,
-                      child: ClipRRect(
-                          borderRadius: BorderRadius.circular(55),
-                          child: Image.asset("assets/images/1.webp")),
-                    ),
-                  ]),
+                child: GestureDetector(
+                  onTap: () {},
+                  child: GridTile(
+                    child: Stack(children: [
+                      Positioned(
+                        right: 0,
+                        left: 0,
+                        top: -3,
+                        bottom: 9,
+                        child: ClipRRect(
+                            borderRadius: BorderRadius.circular(55),
+                            child: Image.asset("assets/images/1.webp")),
+                      ),
+                    ]),
+                  ),
                 ),
               );
             }),
