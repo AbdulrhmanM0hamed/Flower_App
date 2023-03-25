@@ -53,7 +53,7 @@ class Deteils extends StatelessWidget {
           Row(
             children: [
               Container(
-                padding: EdgeInsets.all(4),
+                padding: EdgeInsets.all(5),
                 color: Colors.blueAccent,
                 child: Text("New"),
               )
