@@ -105,7 +105,7 @@ class Deteils extends StatelessWidget {
                   Icon(
                     Icons.edit_location,
                     color: Colors.green,
-                  )
+                  ),
                 ],
               )
             ],
