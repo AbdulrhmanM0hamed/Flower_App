@@ -30,7 +30,10 @@ class Homepage extends StatelessWidget {
                           icon: Icon(Icons.add),
                         ),
                       ),
-                      leading: Text('\$15'),
+                      leading: Padding(
+                        padding: const EdgeInsets.only(left: 10),
+                        child: Text('\$15'),
+                      ),
                     ),
                     child: Stack(children: [
                       Positioned(
