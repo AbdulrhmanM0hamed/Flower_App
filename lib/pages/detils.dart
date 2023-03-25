@@ -50,7 +50,10 @@ class Deteils extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          Text("\$ 15.12"),
+          Text(
+            "\$ 15.12 ",
+            style: TextStyle(fontSize: 15),
+          ),
           SizedBox(
             height: 20,
           ),
