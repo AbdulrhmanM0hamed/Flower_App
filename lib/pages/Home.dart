@@ -17,7 +17,7 @@ class Homepage extends StatelessWidget {
             itemCount: 4,
             itemBuilder: (BuildContext context, index) {
               return GridTile(
-                child: Image.asset("assets/images/R.jpeg"),
+                child: Image.asset("assets/images/1.webp"),
               );
             }),
         drawer: Drawer(
