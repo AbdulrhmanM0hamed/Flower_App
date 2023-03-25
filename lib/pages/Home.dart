@@ -16,8 +16,8 @@ class Homepage extends StatelessWidget {
             ),
             itemCount: 4,
             itemBuilder: (BuildContext context, index) {
-              return Container(
-                color: Colors.blue,
+              return GridTile(
+                child: Image.asset("assets/images/R.jpeg"),
               );
             }),
         drawer: Drawer(
