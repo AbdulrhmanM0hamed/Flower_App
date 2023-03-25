@@ -55,7 +55,7 @@ class Deteils extends StatelessWidget {
             style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
           ),
           SizedBox(
-            height: 20,
+            height: 10,
           ),
           Row(
             children: [
@@ -72,6 +72,30 @@ class Deteils extends StatelessWidget {
                     style: TextStyle(fontSize: 16),
                   ),
                 ),
+              ),
+              Row(
+                children: [
+                  Icon(
+                    Icons.star,
+                    color: Color.fromARGB(223, 255, 251, 0),
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Color.fromARGB(223, 255, 251, 0),
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Color.fromARGB(223, 255, 251, 0),
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Color.fromARGB(223, 255, 251, 0),
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Color.fromARGB(223, 255, 251, 0),
+                  ),
+                ],
               )
             ],
           )
