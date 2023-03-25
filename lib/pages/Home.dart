@@ -12,6 +12,7 @@ class Homepage extends StatelessWidget {
             crossAxisCount: 2,
             childAspectRatio: 3 / 2,
             crossAxisSpacing: 10,
+            mainAxisSpacing: 33,
           ),
           itemBuilder: itemBuilder,
         ),
