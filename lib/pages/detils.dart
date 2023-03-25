@@ -99,6 +99,14 @@ class Deteils extends StatelessWidget {
                     ),
                   ],
                 ),
+              ),
+              Row(
+                children: [
+                  Icon(
+                    Icons.edit_location,
+                    color: Colors.green,
+                  )
+                ],
               )
             ],
           )
