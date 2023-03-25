@@ -53,8 +53,11 @@ class Deteils extends StatelessWidget {
           Row(
             children: [
               Container(
+                decoration: BoxDecoration(
+                  color: Colors.redAccent,
+                  borderRadius: BorderRadius.circular(10),
+                ),
                 padding: EdgeInsets.all(3),
-                color: Colors.blueAccent,
                 child: Text("New"),
               )
             ],
