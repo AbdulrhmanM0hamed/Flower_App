@@ -17,9 +17,16 @@ class Homepage extends StatelessWidget {
             itemCount: 4,
             itemBuilder: (BuildContext context, index) {
               return GridTile(
-                child: ClipRRect(
-                    borderRadius: BorderRadius.circular(55),
-                    child: Image.asset("assets/images/1.webp")),
+                child: Stack(children: [
+                  Positioned(
+                    right: 0,
+                    left: 0,
+                    top: 10,
+                    child: ClipRRect(
+                        borderRadius: BorderRadius.circular(55),
+                        child: Image.asset("assets/images/1.webp")),
+                  ),
+                ]),
               );
             }),
         drawer: Drawer(
