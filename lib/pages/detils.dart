@@ -113,7 +113,8 @@ class Deteils extends StatelessWidget {
                     ),
                     Text(
                       "Flower shop",
-                      style: TextStyle(fontSize: 16),
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                     ),
                   ],
                 ),
