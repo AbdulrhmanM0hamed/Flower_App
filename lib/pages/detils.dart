@@ -100,12 +100,16 @@ class Deteils extends StatelessWidget {
                   ],
                 ),
               ),
+              Spacer(
+                flex: 1,
+              ),
               Row(
                 children: [
                   Icon(
                     Icons.edit_location,
                     color: Colors.green,
                   ),
+                  Text("Flower shop"),
                 ],
               )
             ],
