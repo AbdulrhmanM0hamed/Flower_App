@@ -22,18 +22,22 @@ class Homepage extends StatelessWidget {
                   onTap: () {},
                   child: GridTile(
                     footer: GridTileBar(
-                      trailing: IconButton(
-                        color: Colors.black,
-                        onPressed: () {},
-                        icon: Icon(Icons.add),
+                      trailing: Padding(
+                        padding: const EdgeInsets.only(left: 70),
+                        child: IconButton(
+                          color: Colors.black,
+                          onPressed: () {},
+                          icon: Icon(Icons.add),
+                        ),
                       ),
+                      leading: Text('\$15'),
                     ),
                     child: Stack(children: [
                       Positioned(
                         right: 0,
                         left: 0,
                         top: -3,
-                        bottom: 9,
+                        bottom: -9,
                         child: ClipRRect(
                             borderRadius: BorderRadius.circular(55),
                             child: Image.asset("assets/images/1.webp")),
