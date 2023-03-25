@@ -127,8 +127,8 @@ class Deteils extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: Text(
-              "data",
-              style: TextStyle(fontSize: 16),
+              "Details",
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               textAlign: TextAlign.start,
             ),
           )
