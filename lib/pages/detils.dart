@@ -47,6 +47,8 @@ class Deteils extends StatelessWidget {
       body: Column(
         children: [
           Image.asset("assets/images/2.webp"),
+          SizedBox(),
+          Text("\$ 15.12"),
           SizedBox(
             height: 20,
           ),
