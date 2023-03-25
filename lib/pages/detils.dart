@@ -73,29 +73,32 @@ class Deteils extends StatelessWidget {
                   ),
                 ),
               ),
-              Row(
-                children: [
-                  Icon(
-                    Icons.star,
-                    color: Color.fromARGB(223, 255, 251, 0),
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Color.fromARGB(223, 255, 251, 0),
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Color.fromARGB(223, 255, 251, 0),
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Color.fromARGB(223, 255, 251, 0),
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Color.fromARGB(223, 255, 251, 0),
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.only(left: 10),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.star,
+                      color: Color.fromARGB(223, 255, 251, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      color: Color.fromARGB(223, 255, 251, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      color: Color.fromARGB(223, 255, 251, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      color: Color.fromARGB(223, 255, 251, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      color: Color.fromARGB(223, 255, 251, 0),
+                    ),
+                  ],
+                ),
               )
             ],
           )
