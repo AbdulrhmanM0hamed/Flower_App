@@ -21,6 +21,13 @@ class Homepage extends StatelessWidget {
                 child: GestureDetector(
                   onTap: () {},
                   child: GridTile(
+                    footer: GridTileBar(
+                      trailing: IconButton(
+                        color: Colors.black,
+                        onPressed: () {},
+                        icon: Icon(Icons.add),
+                      ),
+                    ),
                     child: Stack(children: [
                       Positioned(
                         right: 0,
