@@ -8,7 +8,9 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: GridView.builder(
-          gridDelegate: gridDelegate,
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+          ),
           itemBuilder: itemBuilder,
         ),
         drawer: Drawer(
