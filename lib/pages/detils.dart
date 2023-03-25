@@ -52,7 +52,7 @@ class Deteils extends StatelessWidget {
           ),
           Text(
             "\$ 15.12 ",
-            style: TextStyle(fontSize: 15),
+            style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
           ),
           SizedBox(
             height: 20,
