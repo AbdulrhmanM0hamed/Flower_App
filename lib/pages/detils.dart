@@ -111,7 +111,10 @@ class Deteils extends StatelessWidget {
                       Icons.edit_location,
                       color: Colors.green,
                     ),
-                    Text("Flower shop"),
+                    Text(
+                      "Flower shop",
+                      style: TextStyle(fontSize: 16),
+                    ),
                   ],
                 ),
               )
