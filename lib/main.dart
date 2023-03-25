@@ -1,5 +1,6 @@
 import 'package:flower_app/pages/Home.dart';
 import 'package:flower_app/pages/Register.dart';
+import 'package:flower_app/pages/detils.dart';
 import 'package:flower_app/pages/login.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Homepage(),
+      home: Deteils(),
     );
   }
 }
