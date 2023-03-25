@@ -121,7 +121,9 @@ class Deteils extends StatelessWidget {
               )
             ],
           ),
-          //SizedBox(height: 12,),
+          SizedBox(
+            height: 16,
+          ),
           SizedBox(
             width: double.infinity,
             child: Text(
