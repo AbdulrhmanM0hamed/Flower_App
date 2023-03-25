@@ -127,13 +127,15 @@ class Deteils extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: Text(
-              "Details",
+              "Details :",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               textAlign: TextAlign.start,
             ),
           ),
           Text(
-              "Flowers vary widely in their shape, size, color, and scent. Many types are small and barely noticeable. The blossoms that most people think of as flowers are those that are colorful and showy.")
+            "Flowers vary widely in their shape, size, color, and scent. Many types are small and barely noticeable. The blossoms that most people think of as flowers are those that are colorful and showy.",
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+          )
         ],
       ),
     );
