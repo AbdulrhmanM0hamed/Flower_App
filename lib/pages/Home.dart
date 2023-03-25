@@ -1,9 +1,26 @@
 import 'package:flower_app/pages/customappbar.dart';
+//import 'package:flower_app/pages/items.dart';
 import 'package:flutter/material.dart';
 
-class Homepage extends StatelessWidget {
-  const Homepage({super.key});
+class Item {
+  String imgPath;
+  double price;
 
+  Item({required this.imgPath, required this.price});
+}
+
+class Homepage extends StatelessWidget {
+  Homepage({super.key});
+  final List<Item> items = [
+    Item(price: 12.99, imgPath: "assets/images/1.webp"),
+    Item(price: 12.99, imgPath: "assets/images/2.webp"),
+    Item(price: 12.99, imgPath: "assets/images/3.webp"),
+    Item(price: 12.99, imgPath: "assets/images/4.webp"),
+    Item(price: 12.99, imgPath: "assets/images/5.webp"),
+    Item(price: 12.99, imgPath: "assets/images/6.webp"),
+    Item(price: 12.99, imgPath: "assets/images/7.webp"),
+    Item(price: 12.99, imgPath: "assets/images/8.webp"),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,7 +31,7 @@ class Homepage extends StatelessWidget {
               crossAxisSpacing: 10,
               mainAxisSpacing: 33,
             ),
-            itemCount: 4,
+            itemCount: items.length,
             itemBuilder: (BuildContext context, index) {
               return Padding(
                 padding: const EdgeInsets.only(top: 22),
@@ -42,8 +59,9 @@ class Homepage extends StatelessWidget {
                         top: -3,
                         bottom: -9,
                         child: ClipRRect(
-                            borderRadius: BorderRadius.circular(55),
-                            child: Image.asset("assets/images/1.webp")),
+                          borderRadius: BorderRadius.circular(55),
+                          child: Image.asset(items[index].imgPath),
+                        ),
                       ),
                     ]),
                   ),
