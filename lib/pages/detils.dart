@@ -55,10 +55,13 @@ class Deteils extends StatelessWidget {
               Container(
                 decoration: BoxDecoration(
                   color: Colors.redAccent,
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(5),
                 ),
                 padding: EdgeInsets.all(3),
-                child: Text("New"),
+                child: Text(
+                  "New",
+                  style: TextStyle(fontSize: 16),
+                ),
               )
             ],
           )
