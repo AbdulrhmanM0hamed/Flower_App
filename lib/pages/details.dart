@@ -1,8 +1,9 @@
+import 'package:flower_app/pages/itemss.dart';
 import 'package:flutter/material.dart';
 
 class Deteils extends StatelessWidget {
-  const Deteils({super.key});
-
+  Item products;
+  Deteils({required this.products});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +47,7 @@ class Deteils extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Image.asset("assets/images/2.webp"),
+          Image.asset(products.imgPath),
           SizedBox(
             height: 20,
           ),

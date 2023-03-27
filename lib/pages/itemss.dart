@@ -5,7 +5,7 @@ class Item {
   double price;
 
   Item({required this.imgPath, required this.price});
-  final List<Item> sha = [
+  final List<Item> data = [
     Item(price: 12.99, imgPath: "assets/img/1.webp"),
     Item(price: 12.99, imgPath: "assets/img/2.webp"),
     Item(price: 12.99, imgPath: "assets/img/3.webp"),

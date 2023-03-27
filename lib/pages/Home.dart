@@ -1,5 +1,7 @@
 import 'package:flower_app/pages/customappbar.dart';
 //import 'package:flower_app/pages/items.dart';
+import 'package:flower_app/pages/details.dart';
+
 import 'package:flutter/material.dart';
 
 class Item {
@@ -21,6 +23,7 @@ class Homepage extends StatelessWidget {
     Item(price: 12.99, imgPath: "assets/images/7.webp"),
     Item(price: 12.99, imgPath: "assets/images/8.webp"),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
