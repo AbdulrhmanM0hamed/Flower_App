@@ -8,6 +8,7 @@ class Checkout extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 8, 119, 12),
+        title: Text("checkout screen"),
       ),
     );
   }
