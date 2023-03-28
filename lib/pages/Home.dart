@@ -1,5 +1,6 @@
+import 'package:flower_app/Provider/cart.dart';
 import 'package:flower_app/pages/customappbar.dart';
-//import 'package:flower_app/pages/items.dart';
+import 'package:flower_app/pages/items.dart';
 import 'package:flower_app/pages/details.dart';
 
 import 'package:flutter/material.dart';
@@ -42,14 +43,17 @@ class Homepage extends StatelessWidget {
                   onTap: () {},
                   child: GridTile(
                     footer: GridTileBar(
-                      trailing: Padding(
-                        padding: const EdgeInsets.only(left: 70),
-                        child: IconButton(
-                          color: Colors.black,
-                          onPressed: () {},
-                          icon: Icon(Icons.add),
-                        ),
-                      ),
+                      trailing: Consumer<Cart>(
+                          builder: ((context, classInstancee, child) {
+                        return Padding(
+                          padding: const EdgeInsets.only(left: 70),
+                          child: IconButton(
+                            color: Colors.black,
+                            onPressed: () {},
+                            icon: Icon(Icons.add),
+                          ),
+                        );
+                      })),
                       leading: Padding(
                         padding: const EdgeInsets.only(left: 10),
                         child: Text('\$15'),
