@@ -42,13 +42,19 @@ class Homepage extends StatelessWidget {
                   onTap: () {},
                   child: GridTile(
                     footer: GridTileBar(
-                      trailing: Padding(
+                      trailing:  Consumer<ClassName>(
+  builder: ((context, classInstancee, child) {
+  return Padding(
                         padding: const EdgeInsets.only(left: 70),
                         child: IconButton(
                           color: Colors.black,
-                          onPressed: () {},
+                          onPressed: () {
+
+                            
+                          },
                           icon: Icon(Icons.add),
-                        ),
+                        ), );
+})),
                       ),
                       leading: Padding(
                         padding: const EdgeInsets.only(left: 10),
