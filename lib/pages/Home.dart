@@ -1,7 +1,7 @@
 import 'package:flower_app/pages/customappbar.dart';
 //import 'package:flower_app/pages/items.dart';
 import 'package:flower_app/pages/details.dart';
-import 'package:provider/provider.dart';
+
 import 'package:flutter/material.dart';
 
 class Item {
@@ -40,21 +40,12 @@ class Homepage extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 22),
                 child: GestureDetector(
                   onTap: () {},
-                  child: GridTile( 
+                  child: GridTile(
                     footer: GridTileBar(
-                      trailing:  Consumer<ClassName>(
-                builder: ((context, classInstancee, child) {
-               return Padding(
-                        padding: const EdgeInsets.only(left: 70),
-                        child: IconButton(
-                          color: Colors.black,
-                          onPressed: () {
-
-                            
-                          },
-                          icon: Icon(Icons.add),
-                        ), );
-})),
+                      trailing: IconButton(
+                        color: Colors.black,
+                        onPressed: () {},
+                        icon: Icon(Icons.add),
                       ),
                       leading: Padding(
                         padding: const EdgeInsets.only(left: 10),
