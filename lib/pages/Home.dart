@@ -2,7 +2,7 @@ import 'package:flower_app/Provider/cart.dart';
 import 'package:flower_app/pages/customappbar.dart';
 import 'package:flower_app/pages/items.dart';
 import 'package:flower_app/pages/details.dart';
-
+import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 
 class Item {
