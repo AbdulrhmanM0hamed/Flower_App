@@ -5,6 +5,10 @@ class Checkout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 8, 119, 12),
+      ),
+    );
   }
 }
