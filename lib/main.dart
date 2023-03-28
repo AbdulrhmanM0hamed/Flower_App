@@ -1,3 +1,4 @@
+import 'package:flower_app/Provider/cart.dart';
 import 'package:flower_app/pages/Home.dart';
 import 'package:flower_app/pages/Register.dart';
 import 'package:flower_app/pages/details.dart';
@@ -15,8 +16,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) (return ClassName();),
+    return widget(
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Homepage(),
