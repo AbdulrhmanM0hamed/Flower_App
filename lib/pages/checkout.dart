@@ -6,18 +6,19 @@ class Checkout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 8, 119, 12),
-          title: Text("checkout screen"),
-        ),
-        body: Column(
-          children: [
-            SingleChildScrollView(
-              child: SizedBox(
-                height: 550,
-              ),
-            )
-          ],
-        ));
+      appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 8, 119, 12),
+        title: Text("checkout screen"),
+      ),
+      body: Column(
+        children: [
+          SingleChildScrollView(
+            child: SizedBox(
+              height: 550,
+            ),
+          )
+        ],
+      ),
+    );
   }
 }
